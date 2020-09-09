@@ -9,12 +9,12 @@ document.body.appendChild(container)
 class createcalendar {
     constructor() {
 
-        //the calendar
+        //calendar
         this.calendar = document.createElement("div")
         this.calendar.setAttribute("class", 'calendar')
         subcontainer.appendChild(this.calendar)
 
-        //eventside
+        //eventside 
         this.eventside = document.createElement("div")
         this.eventside.setAttribute("class", 'event-side')
         this.calendar.appendChild(this.eventside)
