@@ -87,23 +87,23 @@ body {
     text-align: center;
     width: 100%;
     height: 10%;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
 }
 
 .calendar-side .days {
     display: flex;
     max-width: 100%;
+    height: 70%;
     flex-wrap: wrap;
     justify-content: space-evenly;
     position: relative;
-    height: 60%;
 
 }
 
 
 .calendar-side button.previous {
-    position: relative;
+    position: absolute;
     top: 0px;
     background-color: white;
     border: none;
@@ -112,25 +112,21 @@ body {
     outline: currentColor;
     margin-right: auto;
     border-radius: 40px;
+    padding: 0px;
 }
 
 .calendar-side button.next {
-    position: relative;
+    position: absolute;
     top: 0px;
     background-color: white;
     border: none;
     font-size: 34px;
     color: gray;
     outline: currentColor;
-    margin-left: 56%;
+    margin-left: 57%;
     text-align: end;
     border-radius: 40px;
-}
-
-.calendar-side .buttons {
-    width: 100%;
-    display: flex;
-    height: 10%;
+    padding: 0px;
 }
 
 
@@ -240,6 +236,17 @@ p:hover {
 }
 
 @media screen and (max-width:1000px) {
+
+    .calendar-side button.next {
+        font-size: 20px;
+        margin-left: 54%;
+    }
+
+    .calendar-side button.previous {
+        font-size: 20px;
+    }
+
+
     .calendarcontainer {
         width: 95vw;
     }
@@ -273,11 +280,6 @@ p:hover {
 }
 
 @media screen and (max-width: 280px) {
-
-
-    .calendar-side button.next {
-        margin-left: 0%;
-    }
 
     .calendar-side .year {
         font-size: 1.2em;

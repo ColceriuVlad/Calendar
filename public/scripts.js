@@ -14,7 +14,7 @@ class createcalendar {
         this.calendar.setAttribute("class", 'calendar')
         subcontainer.appendChild(this.calendar)
 
-        //eventside 
+        //eventside
         this.eventside = document.createElement("div")
         this.eventside.setAttribute("class", 'event-side')
         this.calendar.appendChild(this.eventside)
@@ -23,12 +23,6 @@ class createcalendar {
         this.calendarside = document.createElement("div")
         this.calendarside.setAttribute("class", 'calendar-side')
         this.calendar.appendChild(this.calendarside)
-
-        //butons
-        this.buttons = document.createElement("div")
-        this.buttons.setAttribute("class", "buttons")
-        this.calendarside.appendChild(this.buttons)
-
 
         //year
         this.year = document.createElement("div")
@@ -49,6 +43,11 @@ class createcalendar {
         this.days = document.createElement("days")
         this.days.setAttribute("class", 'days')
         this.calendarside.appendChild(this.days)
+
+        //butons
+        this.buttons = document.createElement("div")
+        this.buttons.setAttribute("class", "buttons")
+        this.calendarside.appendChild(this.buttons)
 
         //previous
         this.previous = document.createElement("button")
