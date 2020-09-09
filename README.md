@@ -2,7 +2,7 @@
 
 You can check the finished version here:
 
-Heroku: https://snake-canvas-game.herokuapp.com/
+Heroku: https://calendar-with-events.herokuapp.com/
 
 If you wana deploy your own version of the app to the cloud using Heroku, simply set a value for the uri_key environment variable as following:
 
