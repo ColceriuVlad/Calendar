@@ -238,14 +238,8 @@ p:hover {
 @media screen and (max-width:1000px) {
 
     .calendar-side button.next {
-        font-size: 26px;
         margin-left: 54%;
     }
-
-    .calendar-side button.previous {
-        font-size: 26px;
-    }
-
 
     .calendarcontainer {
         width: 95vw;
