@@ -9,7 +9,7 @@ document.body.appendChild(container)
 class createcalendar {
     constructor() {
 
-        //calendar
+        //the calendar
         this.calendar = document.createElement("div")
         this.calendar.setAttribute("class", 'calendar')
         subcontainer.appendChild(this.calendar)
