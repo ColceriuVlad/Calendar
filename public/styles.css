@@ -235,6 +235,16 @@ p:hover {
 }
 
 @media screen and (max-width:1000px) {
+
+    .calendar-side button.previous {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .calendar-side button.next {
+        width: auto;
+    }
+
     .calendarcontainer {
         width: 95vw;
     }
