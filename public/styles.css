@@ -87,23 +87,23 @@ body {
     text-align: center;
     width: 100%;
     height: 10%;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
 }
 
 .calendar-side .days {
     display: flex;
     max-width: 100%;
-    height: 70%;
     flex-wrap: wrap;
     justify-content: space-evenly;
     position: relative;
+    height: 60%;
 
 }
 
 
 .calendar-side button.previous {
-    position: absolute;
+    position: relative;
     top: 0px;
     background-color: white;
     border: none;
@@ -115,7 +115,7 @@ body {
 }
 
 .calendar-side button.next {
-    position: absolute;
+    position: relative;
     top: 0px;
     background-color: white;
     border: none;
@@ -125,6 +125,12 @@ body {
     margin-left: 56%;
     text-align: end;
     border-radius: 40px;
+}
+
+.calendar-side .buttons {
+    width: 100%;
+    display: flex;
+    height: 10%;
 }
 
 
@@ -234,16 +240,6 @@ p:hover {
 }
 
 @media screen and (max-width:1000px) {
-
-    .calendar-side button.previous {
-        font-size: 25px;
-    }
-
-    .calendar-side button.next {
-        font-size: 25px;
-        margin-left: 53%;
-    }
-
     .calendarcontainer {
         width: 95vw;
     }
