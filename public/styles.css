@@ -122,8 +122,7 @@ body {
     font-size: 34px;
     color: gray;
     outline: currentColor;
-    width: 10%;
-    margin-left: 50%;
+    margin-left: 56%;
     text-align: end;
     border-radius: 40px;
 }
@@ -237,12 +236,12 @@ p:hover {
 @media screen and (max-width:1000px) {
 
     .calendar-side button.previous {
-        font-size: 20px;
-        width: auto;
+        font-size: 25px;
     }
 
     .calendar-side button.next {
-        width: auto;
+        font-size: 25px;
+        margin-left: 53%;
     }
 
     .calendarcontainer {
@@ -278,6 +277,11 @@ p:hover {
 }
 
 @media screen and (max-width: 280px) {
+
+
+    .calendar-side button.next {
+        margin-left: 0%;
+    }
 
     .calendar-side .year {
         font-size: 1.2em;
